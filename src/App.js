@@ -1,12 +1,16 @@
 import React from "react";
-import Header from "./components/Header";
-import Button from "./components/Button";
+
+
+import Search from "./components/search";
+
 class App extends React.Component{
     render(){
-        return<div>
-        <Header text="wark hna!"/>
-        <Button  pr ="hna hna !"/>
-        </div>
+        return(
+        <div className="ui grid countener center aligned">
+            <div className="column eight wide">
+                <Search/>
+            </div>
+        </div>)
     }
 }
 
